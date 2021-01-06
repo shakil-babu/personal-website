@@ -1,0 +1,253 @@
+ body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ================ common style of button ==================== */
+.primary-btn{
+    text-decoration: none;
+    padding: 15px 30px;
+	border-radius: 6px;
+    color: white;
+	background-image: linear-gradient(45deg,#f76661,#f86b61);
+}
+/* ==================================  nav-section ===================================== */
+.nav-container{
+    width: 1200px;
+}
+.nav-container ul{
+    float: right;
+    padding: 10px 0;
+}
+.nav-container ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+.nav-container ul li a{
+    text-decoration: none;
+    padding: 5px;
+    display: inline;
+    color: #3C3C3C;
+    font-size: 17px;
+}
+
+/*============ for all section width =============*/
+section{
+    height: 400px;
+    padding: 70px 0;
+}
+/* ================================== header-section ===================================== */
+
+.half-area{
+    margin-top: 100px;
+}
+.half-area h2{
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 80px;
+    color: #363958;
+    margin: 0;
+    padding: 0;
+}
+.half-area h2 span{
+    color: #ff8367 ;
+}
+.half-area p{
+font-size: 18px;
+line-height: 24px;
+color: #3E3E3E;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 4%;
+}
+.half-width img{
+    width: 100%;
+}
+
+/* ================================ About Section ============================= */
+.about-area{
+    padding: 0;
+    margin: 0;
+}
+.half-width .about-title{
+font-family: 'Bebas Neue', cursive;
+font-weight: bold;
+font-size: 48px;
+line-height: 48px;
+color: #363958;
+margin: 0;
+}
+.half-width .about-info{
+font-size: 18px;
+font-size: 16px;
+line-height: 24px;
+padding-bottom: 20px;
+color: #3E3E3E;
+}
+.about-half{
+    margin-top: 120px;
+}
+/* ====================================== Latest-work Section ============================== */
+.latest-work-area{
+    background-color: #f8f9fc;
+    margin-top: 220px;
+    height: 600px;
+    padding:50px 100px;
+}
+.latest-work-area h2{
+font-family: 'Bebas Neue', cursive;
+font-weight: bold;
+font-size: 48px;
+line-height: 48px;
+color: #363958;
+text-align: center;
+padding-bottom: 50px;
+
+}
+.latest-work-area h2 span{
+    color: #F46060;
+}
+.single-work{
+    width: 26%;
+    float: left;
+    margin-left: 4%;
+    background: #ffffff;
+    box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    padding: 15px;
+}
+.single-work img{
+    width: 100%;
+}
+.single-work h4{
+    font-weight: bold;
+    margin:5px 0;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363958;
+}
+.single-work p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+
+/* ================================================ Skill Section ================================ */
+.skill-container{
+    background-color:#f8f9fcc0;
+    padding: 50px 100px;
+    margin-top: 70px;
+    height: 550px;
+}
+.skill-container h1{
+    text-align: center;
+    color: #363958;
+    font-size: 48px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 48px;
+}
+.skill-container h1 span{
+    color: #F46060;
+}
+.skill-container .about-skill{
+    width: 900px;
+    margin: auto;
+    padding-bottom: 20px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+.skill-container p{
+    margin-top: 10px;
+    padding: 0;
+}
+.bar-width {
+    max-width: 100%;
+    background-color:lightgray;
+    border-radius: 10px;
+  }
+
+  .skill-bar {
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-color:#F46060;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .html {width: 95%;}
+  .css {width: 83%; }
+  .js {width: 45%;}
+
+  /* ================================== Contact Section ================================== */
+  .contact-area{
+        height: 200px;
+        padding: 50px 100px;
+  }
+  .img-container{
+        background: url(./images/last-shape.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 900px;
+        margin: auto;
+        height: 150px;
+        border-radius: 30px;
+        padding: 35px 50px;
+  }
+  .img-container h1, a{
+      display: inline-block;
+  }
+  .img-container h1{
+    float: left;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 64px;
+    color: #FFFFFF;
+    font-family: 'Bebas Neue', cursive;
+}
+.btn{
+    margin-top: 50px;
+    text-decoration: none;
+    padding: 15px 30px;
+	border-radius: 6px;
+    color: white;
+    background-image: linear-gradient(45deg,#f76661,#f86b61);
+    cursor: pointer;
+}
+  .img-container a{
+      float: right;
+  }
+/* ================================== Footer Section ==================================== */
+footer {
+    text-align: center;
+    padding: 50px 0;
+}
+footer p{
+font-family: 'Bebas Neue', cursive;
+font-weight: bold;
+font-size: 24px;
+line-height: 24px;
+color: #696871;
+}
+footer h1{
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+color: #363958;
+}
+footer img{
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+}
+
+/* =================================== Finish ========================================= */
