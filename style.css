@@ -235,8 +235,8 @@ text-align: center;
   }
 
   .html {width: 95%;}
-  .css {width: 83%; }
-  .js {width: 45%;}
+  .css {width: 87%; }
+  .js {width: 85%;}
 
   /* ================================== Contact Section ================================== */
 
@@ -371,7 +371,22 @@ footer img{
     height: 35px;
     margin-left: 15px;
 }
+/* blog-grid-layout */
+.blog-grid-layout{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin: 30px 0;
+}
+.blog-card{
+   padding: 20px;
+   background: #fff;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    cursor: pointer;
+}
+.blog-card:hover{
 
+}
 /* =================================== main style Finish ========================================= */
 
 /* responsive */
