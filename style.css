@@ -402,6 +402,9 @@ footer img{
     .services-grid{
         grid-template-columns: repeat(2, 1fr);
     }
+    .blog-grid-layout{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 /* 768 */
 @media screen and (max-width:768px){
@@ -452,6 +455,9 @@ footer img{
     }
     .main-nav{
         flex-direction: column;
+    }
+    .blog-grid-layout{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 /* 400 */
