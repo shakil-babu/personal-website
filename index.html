@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Website</title>
+    <title>Shakil Babu || A passionate developer</title>
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
    <!-- google font -->
@@ -13,66 +13,107 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-
+<!-- welcome -->
+<div class="welcome" id="Home">
+    <p>Hey dude, Welcome to my official website.</p>
+</div>
 <!-- nav  -->
 <nav class="nav-container">
+    <div class="main-nav">
+        <a class="brand-name" href='#Home' >Shakil Babu</a>
     <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Work</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Work">Portfolio</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Contact">Contact</a></li>
     </ul>
+    </div>
 </nav>
 
 <!-- header-section  -->
     <section class="header-area">
-        <div class="half-width half-area">
+       <div class="container flex">
+        <div class="header-info">
             <h2>Hello I'm <br> <span>Shakil Babu</span></h2>
             <p>A fullstack allround desiner that placerat <br> in massa consectetur</p>
             <a class="primary-btn" href="#">HIRE ME</a>
         </div>
-        <div class="half-width">
+        <div class="header-img">
             <img src="images/first-img.png" alt="">
         </div>
+       </div>
     </section>
 
     <!-- about-section -->
-    <section class="about-area">
-        <div class="half-width">
-            <img src="images/second-img.png" alt="profile2">
-        </div>
-        <div class="half-width about-half">
-            <h2 class="about-title">About</h2>
-            <p class="about-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam animi accusantium deserunt amet, ipsa ab ut optio, consequatur voluptatem nemo sint! Animi deserunt rerum qui neque obcaecati distinctio dolores exercitationem porro? Accusantium ipsa, veniam facilis rem quod ducimus qui! Eligendi molestiae et voluptates magni voluptatibus, reiciendis ut esse commodi? Debitis possimus voluptatum itaque iure explicabo laudantium cupiditate, minima temporibus maxime. </p>
-            <a class="primary-btn" href="#"><i style="margin-right: 10px;" class="fas fa-download"></i>Download CV</a>
+    <section class="about-area" id="About">
+        <div class="container flex">
+            <div class="about-img">
+                <img src="images/second-img.png" alt="profile2">
+            </div>
+            <div class="about-information">
+                <h2 class="about-title">About</h2>
+                <p class="about-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam animi accusantium deserunt amet, ipsa ab ut optio, consequatur voluptatem nemo sint! Animi deserunt rerum qui neque obcaecati distinctio dolores exercitationem porro? Accusantium ipsa, veniam facilis rem quod ducimus qui! Eligendi molestiae et voluptates magni voluptatibus, reiciendis ut esse commodi? Debitis possimus voluptatum itaque iure explicabo laudantium cupiditate, minima temporibus maxime. </p>
+                <a class="primary-btn" href="#"><i style="margin-right: 10px;" class="fas fa-download"></i>Download CV</a>
+            </div>
         </div>
     </section>
 
     <!-- latest-work-section  -->
-    <section class="latest-work-area">
+    <section class="latest-work-area" id="Work">
+       <div class="container">
         <h2> <span>latest</span> working project</h2>
-        <div class="single-work">
-            <img src="images/image 4.png" alt="work-1">
-            <h4>Power-x-gym (gym website)</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        </div>
-        <div class="single-work">
-            <img src="images/image 5.png" alt="work-2">
-            <h4>Creative Agency</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        </div>
-        <div class="single-work">
-            <img src="images/image 8.png" alt="work-3">
-            <h4>Hard Rock Music</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <div class="work-layout">
+                <div class="single-work">
+                    <img src="images/image 4.png" alt="work-1">
+                    <h4>Power-x-gym (gym website)</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="single-work">
+                    <img src="images/image 5.png" alt="work-2">
+                    <h4>Creative Agency</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="single-work">
+                    <img src="images/image 8.png" alt="work-3">
+                    <h4>Hard Rock Music</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+       </div>
+    </section>
+
+    <!-- services -->
+    <section class="services-area" id="Services">
+        <div class="container">
+            <div class="service-title">
+                <h1>My <span>Services</span></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores dolore, dolorum error <br> eveniet molestiae necessitatibus officiis possimus praesentium quas.</p>
+            </div>
+            <div class="services-grid">
+                <div class="first-box">
+                    <h3>Services</h3>
+                    <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum ipsum, perferendis eaque tempora reprehenderit distinctio? Eaque, temporibus. Deleniti, sint architecto?</h4>
+                    <button class="primary-btn">See more</button>
+                </div>
+                <div class="service-box">
+                    <img src="./images/web.svg" alt="">
+                    <h1>Web Development</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam pariatur ratione esse repellat nulla eaque, alias est voluptate commodi similique. Nesciunt odio a harum repellendus?</p>
+                </div>
+                <div class="service-box two">
+                    <img src="./images/mobile.svg" alt="">
+                    <h1>Mobile App</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque consequuntur illum beatae nam culpa aspernatur quas, at adipisci et ex commodi magnam vitae, praesentium quasi!</p>
+                </div>
+            </div>
         </div>
     </section>
 
 
-
     <!-- skill-section -->
-<section class="skill-container">
+<section class="skill-container" id="Skills">
     <h1> <span>My</span> Skill</h1>
     <p class="about-skill">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti esse quas ipsam et, delectus natus numquam? Culpa aspernatur repudiandae eveniet eaque minima, tempora itaque ipsam sint, nulla obcaecati laboriosam sed inventore praesentium cumque iste laudantium perspiciatis recusandae dolorem totam est!</p>
 
@@ -93,22 +134,25 @@
     </section>
 
 <!-- contact section -->
-<section class="contact-area">
-    <div class="img-container">
-        <h1>Work Inquiry</h1>
-        <a class='btn'>Let's Chat</a>
+<section class="contact-area" id="Contact">
+    <div class="container-fluid">
+        <div class="img-container">
+            <h1>Work Inquiry</h1>
+            <a class='btn'>Let's Chat</a>
+        </div>
     </div>
 </section>
 
     <!-- footer section -->
     <footer>
         <p>STAY CONNECTED</p>
-        <h1>hellodesign@gmail.com</h1>
+        <h1>personal.shakil.babu@gmail.com</h1>
         <div class="icon-container">
             <img src="./images/icons/image 7.png" alt="">
             <img src="./images/icons/image 6.png" alt="">
             <img src="./images/icons/Group 33059.png" alt="">
         </div>
     </footer>
+
 </body>
 </html>
